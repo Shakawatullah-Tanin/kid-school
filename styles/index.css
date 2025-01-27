@@ -110,7 +110,7 @@ p{
   height: 400px;
   border-radius: 5px;
   border-style: none;
-  background-image: linear-gradient(rgb(196, 229, 246),rgb(250, 251, 252));
+  background-image: linear-gradient(rgb(196, 229, 246),white);
 }
 .Standard-card-2{
   padding: 24px 32px;
@@ -276,11 +276,10 @@ height: 40px;
   align-items: center;
   text-align: center;
   width: 150px;
-  height: 50px;
+  height: 45px;
   background-color: rgb(60, 216, 232);
   border-style: none;
   border-radius: 32px;
-  margin-left: 32px;
   font-family: Raleway;
   
 }
@@ -297,7 +296,6 @@ height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 80px 40px 80px 40px; */
   }
   nav ul a {
     display: none;
@@ -312,8 +310,21 @@ height: 40px;
   .nav h3{
     display: none;
   }
-  .banner-container{
-    flex-direction: row-reverse;
-    
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .Standard-curriculum{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Standard-card{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
   }
 }
